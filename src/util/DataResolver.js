@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const fetch = require('node-fetch');
+const fetch = require('node-fetch-commonjs');
 const { Error: DiscordError, TypeError } = require('../errors');
 const { browser } = require('../util/Constants');
 const Util = require('../util/Util');
